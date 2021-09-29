@@ -1,0 +1,260 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* =========================================================================================== */
+
+body {
+    background-color: grey;
+}
+
+.container {
+    width: 900px;
+    background-color: gainsboro;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.isi {
+    margin: 20px;
+}
+
+.img {
+    width: 200px;
+}
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border-radius: 40% 40% 40% 0;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-family: arial;
+    overflow: hidden;
+}
+
+.kue {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid hotpink;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.batas {
+    background-image: url(Gambar/Diamond.png);
+    height: 300px;
+    border: 3px solid orangered;
+    position: relative;
+    margin: 20px auto;
+}
+
+.batas h1 {
+    font-size: 72px;
+    position: absolute;
+    right: 165px;
+    bottom: 110px;
+    font-family: arial;
+    text-shadow: -2px 3px 1px white;
+    background-color: grey;
+    padding: 5px;
+}
+.opasitas {
+    background-color: rgba(0, 0, 255, 0.308);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 50px;
+}
+
+.opasitas2 {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: -35px;
+    right: -35px;
+    box-shadow: 7px 7px 5px 5px rgba(0, 0, 0, 0.39);
+}
+
+.gradient {
+    height: 200px;
+    background: linear-gradient(45deg, white, salmon, rgb(110, 255, 110) 90%);
+}
+
+.filter {
+    margin: 40px;
+    background-image: url(Gambar/Book.jpg);
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+/* ================================================================================================ */
+/* Animasi putar */
+
+/* 
+.transisi {
+    background-image: url(Gambar/gear100.png);
+    width: 100px;
+    height: 100px;
+    animation: berputar 3s linear infinite;
+}
+.transisi1 {
+    margin-top: -9px;
+    background-image: url(Gambar/gear100.png);
+    width: 100px;
+    height: 100px;
+    /* animation: berputar1 3s linear infinite 0.93s; */
+/* animation-name: berputar1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.93s;
+}
+
+@keyframes berputar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes berputar1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+} */
+
+/* Akhir animasi putar */

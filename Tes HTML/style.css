@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* =========================================================================================== */
+
+
+body{
+    background:rgb(181, 184, 183);
+}
+
+ol li a{
+    color: darkorange;
+}
+
+h1, h2{
+    text-align: center;
+}
+.bagian{
+    margin: 30px;
+    list-style-type: decimal;
+}
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.isi{
+    margin: 20px;
+}
+
+.iklan{
+    background-color: black;
+    position: fixed;
+    top: 150px;
+    left: 150px;
+    right: 150px;
+    bottom: 150px;
+    opacity: 0.3;
+}
+
+.x{
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    position: fixed;
+    color: red;
+    /* background-color: white; */
+    top: 110px;
+    right: 110px;
+    /* border: 2px solid black; */
+}
+
+.x:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.gambar{
+    width: 400px;
+    margin-top: 50px;
+}
+
+.kubusP{
+    width: 200px;
+    height: 300px;
+    border: 5px solid cornflowerblue;
+    position: relative;
+}
+
+.kubus{
+    width: 100px;
+    height: 100px;
+}
+.kubus1{
+    background-color: #32ff7e;
+}
+.kubus2{
+    background-color: #fff200;
+    /* position: fixed; */
+    top: 0px;
+    left: 50px;
+}
+.kubus3{
+    background-color: #18dcff;
+}
+
+.kotak{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+}
+
+.kotak0{
+    width: 100px;
+    height: 100px;
+    color: white;
+    float: right;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.kotak1{
+    background-color: #ff793f;
+}
+.kotak2{
+    background-color: #2c2c54;
+}
+.kotak3{
+    background-color: #6D214F;
+}
+.kotak4{
+    background-color: #F8EFBA;
+}
+
+.judul {
+    background-color: rgb(255, 98, 158);
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: arial;
+    width: 200px;
+    margin: 25px auto;
+    padding: 5px;
+}
+
+p{
+    text-indent: 40px;
+    text-align: justify;
+    font: bold 16px arial;
+}
+
+.pertama{
+    width: 550px;
+    margin-bottom: 70px;
+}
+.pertama p{
+    border: 2px dashed #6c5ce7;
+    margin: 10px;
+    padding: 15px;
+    color: blue;
+}
+.pertama span{
+    color: #009432;
+}
+
+.kedua{
+    color: #5f27cd;
+}
+
+a{ text-decoration: none;}
+
+.pertama #bagian1{
+    background-color: deeppink;
+    padding: 5px;
+    margin: 20px 220px;
+    font-size: 22px;
+}
+
+.nomor{
+    background-color: salmon;
+    padding-left: 20px;
+}
+.nomor a:hover, .bagian li a:hover {
+    color:chartreuse;
+}
+
+.nomor a:active, .bagian li a:active {
+    background-color: cornflowerblue;
+}
+
+.nomor a{
+    margin: 15px 60px;
+    display: inline-block;
+}
+
+/* .bagian li a:visited {
+    color: teal;
+} */
+
+li:nth-child(odd) a{
+    color: red;
+}
+
+li:nth-child(even) a{
+    color:green
+}
+/* 
+p:first-of-type {
+    color: blue;
+} */
